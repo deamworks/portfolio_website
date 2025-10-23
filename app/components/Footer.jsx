@@ -2,14 +2,16 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa"; 
 import { motion, scale } from "framer-motion";
+import { SiNotion, SiMonkeytype } from "react-icons/si";
 
 export const Footer = () => {
     // Social media links array
     const socialIcons=[
-        {icon: FaGithub , href: "https://github.com/deamworks"},
-        {icon: FaInstagram , href: "https://www.instagram.com/"},
-        {icon: FaTiktok , href: "https://www.tiktok.com/"},
-        {icon: FaYoutube , href: "https://www.youtube.com/"},
+        { icon: FaInstagram, href: "https://www.instagram.com/deam.works?igsh=MWxicDJ5eXZ0M3Nzbg%3D%3D&utm_source=qr" },
+        { icon: FaGithub, href: "https://github.com/deamworks" },
+        { icon: SiNotion, href: "https://www.notion.so/1b24cbcf75ed80e5826afdef8c518fa7?source=copy_link" },
+        { icon: SiMonkeytype, href: "https://monkeytype.com/profile/Deamery" },
+        
     ];
    const container = {
         hidden: { },
@@ -48,7 +50,7 @@ export const Footer = () => {
             transition={{duration:0.6, delay:0.2}}
             viewport={{once:true}}
             className="text-xl md:text-2xl font-semibold text-semibold text-gradient max-w-3xl mx-auto mb-8">
-            More content coming soon...
+            Connect with me on...
         </motion.p>
         <motion.hr
             initial={{scaleX:0}}

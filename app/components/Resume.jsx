@@ -5,22 +5,22 @@ export const Resume = () => {
     // Education array
     const educationData = [
         {
-        year: "",
-        title: "",
-        institution:"",
-        description:"",
+        year: "2023 - Present",
+        title: "Faculty of Engineering",
+        institution:"Rangsit University",
+        description:"Studying computer engineering, focusing on programming, software design, and UX/UI design for user-centered web development",
         },
         {
-        year: "",
-        title: "",
-        institution:"",
-        description:"",
+        year: "1019 - 2022",
+        title: "Science - Mathematices Program",
+        institution:"Sriayudhya School",
+        description:"Studied science and mathematics with a focus on analytical thinking.",
         },
         {
-        year: "",
-        title: "",
-        institution:"",
-        description:"",
+        year: "2016-2019",
+        title: "Japanese Language Program",
+        institution:"Sriayudhya School",
+        description:"Studied Japanese language, culture, and communication skills.",
         },
     ];
     
@@ -36,23 +36,23 @@ export const Resume = () => {
     // work data array
     const workData = [
         {
-        year: "",
-        title: "",
-        institution:"",
-        description:"",
+        year: "2025",
+        title: "Responsive Web Design Developer Certification",
+        institution:"freeCodeCamp.org",
+        description:"Learned to build responsive, accessible, and visually appealing web layouts using HTML and CSS.",
         },
         {
-        year: "",
-        title: "",
-        institution:"",
-        description:"",
+        year: "2025",
+        title: "Front End Development Libraries Certification ",
+        institution:"freeCodeCamp.org",
+        description:"racticed building interactive web interfaces using frameworks.",
         },
-        {
-        year: "",
-        title: "",
-        institution:"",
-        description:"",
-        },
+        // {
+        // year: "2024",
+        // title: "",
+        // institution:"",
+        // description:"",
+        // },
     ]
   return (
     <section className='mt-12 pb-8' id="resume">
@@ -69,7 +69,7 @@ export const Resume = () => {
                      Resume
                    </p>
                    <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gradient mb-8 '>
-                    Education and practical <br />
+                    Education and Certifications <br />
                    </h2>
             </motion.div>
                 {/* Timeline Content */}
@@ -114,7 +114,7 @@ export const Resume = () => {
                      whileInView={{opacity:1, y:0}}
                      transition={{duration:0.6}}
                      viewport={{once:true}}>
-                        <h3 className='text-xl md:text-2xl font-bold text-content mb-8'>Work</h3>
+                        <h3 className='text-xl md:text-2xl font-bold text-content mb-8'>My Certifications</h3>
                         <div className='relative'>
                             <div className='absolute left-4 top-0 bottom-0 w-0.5 custom-gradient opacity-60'></div>
                             <div>

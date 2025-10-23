@@ -43,19 +43,19 @@ export const About = () =>{
                         className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-12'>
                     
                         {/* Card 1*/}
-                        <motion.div
+                        {/* <motion.div
                             variants={item}
                             whileHover={{ scale: 1.05 }}
                             className='bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center border border-outer'>
                             <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>40+</h3>
                             <p className='text-gray-700 font-medium text-lg'>Happy clients</p>
-                        </motion.div>
+                        </motion.div> */}
                         {/* Card 2 */}
                         <motion.div 
                             variants={item}
                             whileHover={{ scale: 1.05 }}
                             className='bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center border border-outer'>
-                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>2+</h3>
+                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>1+</h3>
                             <p className='text-gray-700 font-medium text-lg'>Years of experience</p>
                         </motion.div>
                         {/* Card 3 */}
@@ -63,7 +63,7 @@ export const About = () =>{
                             variants={item}
                             whileHover={{ scale: 1.05 }}
                             className='bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center border border-outer'>
-                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>5+</h3>
+                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>4+</h3>
                             <p className='text-gray-700 font-medium text-lg'>Projucts done</p>
                         </motion.div>
                     </motion.div>
@@ -83,8 +83,10 @@ export const About = () =>{
                             viewport={{once:true}}
                             className='text-gray-600 text-lg leading-relaxed'>
 
-                            "I am a Computer Engineering student passionate about UX/UI Design and Front-End Development. 
-                            I enjoy creating websites that are both visually appealing and user-friendly. "
+                            "I am a third-year Computer Engineering student passionate about UX/UI Design and Front-End Development. I enjoy creating websites that are both visually appealing and easy to use. 
+                            I am currently learning and practicing technologies such as HTML, CSS, JavaScript, React, Next.js, and TailwindCSS. My goal is to enhance 
+                            my skills to build smooth and engaging user experiences, and to grow into a Full-Stack Developer in the future. I am eager to contribute creativity, technical skills, 
+                            and a user-centered perspective to help develop projects that meet business goals and improve user satisfaction. "
                         </motion.p> 
                         <motion.p 
                             initial={{opacity: 0, y: -20}}
@@ -93,9 +95,8 @@ export const About = () =>{
                             viewport={{once:true}}
                             className='text-gray-600 text-lg leading-relaxed'>
 
-                            Currently, I am learning and practicing technologies such as HTML, CSS, JavaScript, React, Next.js, and TailwindCSS. 
-                            My goal is to enhance my skills to design and develop seamless user experiences, 
-                            and eventually grow into a Full-Stack Developer in the future.
+                            I’m also committed to learning from real-world experiences, collaborating effectively with teams, 
+                            and delivering work with dedication and a positive mindset.
                         </motion.p>
 
                         {/* Download button */}

@@ -10,13 +10,12 @@ export const Hero = () => {
   //Icon array
   const icons = [
     "assets/github.svg",
-    "assets/icon-2.svg",
-    "assets/icon-3.svg",
-    "assets/icon-4.svg",
-    "assets/icon-5.svg",
-    "assets/icon-6.svg",
-    "assets/icon-7.svg",
-    "assets/icon-8.svg",
+    "assets/nextjs.svg",
+    "assets/notion.svg",
+    "assets/react.svg",
+    "assets/figma.svg",
+    "assets/html.svg",
+    "assets/css.svg",
   ];
 
   // Animation variants
