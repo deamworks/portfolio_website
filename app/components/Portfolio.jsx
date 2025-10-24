@@ -16,22 +16,23 @@ export const Portfolio = () => {
     {
       id: 2,
       title: "Website Design",
-      image: "assets/web02.png",
+      image: "assets/web.jpg",
       tags: ["Web Design", "UX/UI"],
       link: "https://desireeshop.netlify.app/#",
     },
-    // {
-    //   id: 3,
-    //   title: "Full Stack Blog Website",
-    //   image: "assets/portfolio-3.png",
-    //   tags: ["Web Design", "Full Stack"],
-    // },
-    // {
-    //   id: 4,
-    //   title: "Project Four",
-    //   image: "assets/portfolio-4.png",
-    //   tags: ["App Design", "UX/UI"],
-    // },
+    {
+      id: 3,
+      title: "Full Stack Blog Website",
+      image: "assets/5.png",
+      tags: ["Web Design", "Full Stack"],
+    },
+    {
+      id: 4,
+      title: "Mini Project",
+      image: "assets/4.png",
+      tags: ["Javascript", "React",],
+      link: "https://codepen.io/deamworks",
+    },
   ];
 
   // animation variants

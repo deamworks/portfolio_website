@@ -39,7 +39,7 @@ export const Hero = () => {
         className="max-w-2xl m-auto flex flex-col items-center justify-center text-center pt-24 md:pt-36 px-4 md:px-0 pb-8 overflow">
         {/* Profile Image */}
           <motion.div variants={item}>
-          <Image src="/assets/download.jpg"
+          <Image src="/assets/pro02.png"
           width={150} 
           height={150} 
           className="rounded-full mb-4"

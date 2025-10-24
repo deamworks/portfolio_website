@@ -30,8 +30,7 @@ export const About = () =>{
                          <PiStarFourFill className='text-lg'/> 
                          About
                        </p>
-                       <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gradient mb-8 '> Turning complex problems <br />
-                       into simple designs.
+                       <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gradient mb-8 '> Turning creative ideas <br /> into interactive web experiences.
                        </h2>
             </motion.div>
                     {/* About data */}
@@ -42,31 +41,35 @@ export const About = () =>{
                         viewport={{once:true}}
                         className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-12'>
                     
-                        {/* Card 1*/}
-                        {/* <motion.div
-                            variants={item}
-                            whileHover={{ scale: 1.05 }}
-                            className='bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center border border-outer'>
-                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>40+</h3>
-                            <p className='text-gray-700 font-medium text-lg'>Happy clients</p>
-                        </motion.div> */}
-                        {/* Card 2 */}
+                       
+                        {/* Card 1 */}
                         <motion.div 
                             variants={item}
                             whileHover={{ scale: 1.05 }}
                             className='bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center border border-outer'>
                             <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>1+</h3>
-                            <p className='text-gray-700 font-medium text-lg'>Years of experience</p>
+                            <p className='text-gray-700 font-medium text-lg'>Years of hands-on experience <br />in front-end technologies</p>
                         </motion.div>
-                        {/* Card 3 */}
+                    
+                        {/* Card 2 */}
                         <motion.div 
                             variants={item}
                             whileHover={{ scale: 1.05 }}
                             className='bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center border border-outer'>
-                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>4+</h3>
-                            <p className='text-gray-700 font-medium text-lg'>Projucts done</p>
+                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>5+</h3>
+                            <p className='text-gray-700 font-medium text-lg'>Projects built <br />for learning and personal growth</p>
+                        </motion.div> 
+                        
+                        {/* Card 3*/}
+                        <motion.div
+                            variants={item}
+                            whileHover={{ scale: 1.05 }}
+                            className='bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center border border-outer'>
+                            <h3 className='text-5xl md:text-6xl font-bold text-gradient mb-2'>2+</h3>
+                            <p className='text-gray-700 font-medium text-lg'>Certifications completed</p>
                         </motion.div>
                     </motion.div>
+
                     {/* Content text */}
                     <motion.div
                         initial={{opacity: 0, y: 40}}
