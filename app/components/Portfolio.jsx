@@ -7,32 +7,34 @@ export const Portfolio = () => {
   // Projects array
   const projects = [
     {
+      id: 4,
+      title: "My github",
+      image: "assets/46.png",
+      tags: ["Collection", "Workshop",],
+      link: "https://github.com/deamworks",
+    },
+    {
       id: 1,
       title: "Application Design",
-      image: "assets/portfolio-2.png",
+      image: "assets/47.png",
       tags: ["Figma", "UX/UI"],
       link: "https://www.figma.com/proto/VYkPqIBAFrDH8evniWSgyx/DesireeApp?node-id=1-13&starting-point-node-id=1%3A13&t=byCP4otsdrsDCSf1-1",
     },
     {
       id: 2,
       title: "Website Design",
-      image: "assets/web.jpg",
+      image: "assets/48.png",
       tags: ["Web Design", "UX/UI"],
       link: "https://desireeshop.netlify.app/#",
     },
     {
       id: 3,
-      title: "Full Stack Blog Website",
-      image: "assets/5.png",
-      tags: ["Web Design", "Full Stack"],
-    },
-    {
-      id: 4,
-      title: "Mini Project",
-      image: "assets/4.png",
-      tags: ["Javascript", "React",],
+      title: "Mini Product",
+      image: "assets/49.png",
+      tags: ["Web Design", "Full Stack"]
       link: "https://codepen.io/deamworks",
     },
+
   ];
 
   // animation variants
