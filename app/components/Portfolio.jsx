@@ -31,7 +31,7 @@ export const Portfolio = () => {
       id: 3,
       title: "Mini Product",
       image: "assets/49.png",
-      tags: ["Web Design", "Full Stack"]
+      tags: ["Web Design", "Full Stack"],
       link: "https://codepen.io/deamworks",
     },
 
