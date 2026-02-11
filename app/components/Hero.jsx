@@ -57,7 +57,7 @@ export const Hero = () => {
         <motion.h1 
         variants={item}
         className='text-3xl md:text-5xl font-semibold mt-2 leading-tight'>
-          front-end developer <br className='md:midden'/>& UX/UI designer.
+           Softwate developer <br className='md:midden'/>& UX/UI designer.
         </motion.h1>
         
         {/* Icons swipe */}
