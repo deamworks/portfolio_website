@@ -108,7 +108,7 @@ export const About = () =>{
                             whileInView={{opacity:1, y:0}}
                             transition={{duration:0.6, delay:0.3}}
                             viewport={{once:true}}
-                            href="assets/resume.pdf" download className='custom-gradient py-4 px-8 text-white rounded-full font-semibold flex items-center justify-center gap-2 w-max hover:opacity-90 transition-opacity duration-300'> 
+                            href="assets/Portfolio.pdf" download className='custom-gradient py-4 px-8 text-white rounded-full font-semibold flex items-center justify-center gap-2 w-max hover:opacity-90 transition-opacity duration-300'> 
                         Download CV
                         <HiDownload className='text-lg'/>
                         </motion.a>

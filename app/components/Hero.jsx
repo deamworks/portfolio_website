@@ -94,7 +94,7 @@ export const Hero = () => {
                <HiOutlineViewGridAdd className='text-lg'/>My Work  
             </a>
             <a 
-              href="assets/resume.pdf" download className='w-full md:w-auto py-3 px-8 rounded-full font-semibold border border-content/20 hover:border-content/40 hover:shadow-sm transition-colors duration-300 flex items-center justify-center gap-2'>
+              href="assets/resume2.pdf" download className='w-full md:w-auto py-3 px-8 rounded-full font-semibold border border-content/20 hover:border-content/40 hover:shadow-sm transition-colors duration-300 flex items-center justify-center gap-2'>
                <HiDownload className='text-lg' />My Resume</a>
         </motion.div>
       </motion.div>
