@@ -85,8 +85,9 @@ export const About = () =>{
                         transition={{duration:0.6, delay:0.3}}
                         viewport={{once:true}}
                         className='text-gray-600 text-lg leading-relaxed'>
-                        I'm a third-year Computer Engineering student with a passion for building software that is both functional and delightful to use. 
-                        My focus spans <span className='font-semibold text-gray-800'>full-stack web development</span> — from crafting responsive, accessible front-end interfaces to designing back-end logic and APIs.
+                        I'm a third-year Computer Engineering student with hands-on experience in 
+                        <span className='font-semibold text-gray-800'> full-stack web development</span> through academic and personal projects. 
+                        I enjoy building things from scratch — from designing UI to connecting back-end logic and databases.
                     </motion.p> 
 
                     <motion.p 
@@ -95,9 +96,8 @@ export const About = () =>{
                         transition={{duration:0.6, delay:0.4}}
                         viewport={{once:true}}
                         className='text-gray-600 text-lg leading-relaxed'>
-                        I work with technologies including <span className='font-semibold text-gray-800'>HTML, CSS, JavaScript, React, Next.js, and TailwindCSS</span> on the front end, 
-                        and I'm actively expanding into back-end development with Node.js and databases. 
-                        I care deeply about writing clean, maintainable code and creating user experiences that solve real problems.
+                        I have practical experience with <span className='font-semibold text-gray-800'>HTML, CSS, JavaScript, React, Next.js, TailwindCSS, Node.js, and Supabase</span>. 
+                        I'm a fast learner who enjoys solving real problems, writing clean code, and continuously improving through every project I work on.
                     </motion.p>
 
                     <motion.p
@@ -106,8 +106,8 @@ export const About = () =>{
                         transition={{duration:0.6, delay:0.5}}
                         viewport={{once:true}}
                         className='text-gray-600 text-lg leading-relaxed'>
-                        My goal is to grow into a well-rounded <span className='font-semibold text-gray-800'>Software Engineer</span> — someone who can own a product from database to UI, 
-                        collaborate effectively in teams, and continuously ship quality work.
+                        I'm currently seeking a <span className='font-semibold text-gray-800'>Software Engineer internship</span> where I can contribute, 
+                        learn from experienced teams, and grow into a well-rounded developer in a real-world environment.
                     </motion.p>
 
                     {/* Download button */}
@@ -116,7 +116,7 @@ export const About = () =>{
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:0.6, delay:0.5}}
                         viewport={{once:true}}
-                        href="/assets/Resume_Putita.pdf" 
+                        href="/assets/Resume Putita Chaleeprom (6).pdf" 
                         download 
                         className='custom-gradient py-4 px-8 text-white rounded-full font-semibold flex items-center justify-center gap-2 w-max hover:opacity-90 transition-opacity duration-300'> 
                         Download CV
