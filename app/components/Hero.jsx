@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Image from 'next/image'
 import { easeOut, motion } from 'framer-motion'
@@ -57,7 +56,7 @@ export const Hero = () => {
         <motion.h1 
         variants={item}
         className='text-3xl md:text-5xl font-semibold mt-2 leading-tight'>
-           Softwate developer <br className='md:midden'/>& UX/UI designer.
+          Software Engineer <br />& Full-Stack Developer.
         </motion.h1>
         
         {/* Icons swipe */}
@@ -94,11 +93,10 @@ export const Hero = () => {
                <HiOutlineViewGridAdd className='text-lg'/>My Work  
             </a>
             <a 
-              href="assets/resume2.pdf" download className='w-full md:w-auto py-3 px-8 rounded-full font-semibold border border-content/20 hover:border-content/40 hover:shadow-sm transition-colors duration-300 flex items-center justify-center gap-2'>
+              href="assets/Resume_Putita.pdf" download className='w-full md:w-auto py-3 px-8 rounded-full font-semibold border border-content/20 hover:border-content/40 hover:shadow-sm transition-colors duration-300 flex items-center justify-center gap-2'>
                <HiDownload className='text-lg' />My Resume</a>
         </motion.div>
       </motion.div>
     </section>
   );
 };
-
